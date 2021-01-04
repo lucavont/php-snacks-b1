@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.teachers {
+    background-color: grey;
+}
+
+.pm {
+    background-color: green;
+}
+
+.teachers,
+.pm {
+    width: 50%;
+    text-align: center;
+    height: 200px;
+}
